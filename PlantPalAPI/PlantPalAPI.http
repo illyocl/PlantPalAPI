@@ -1,0 +1,12 @@
+@PlantPalAPI_HostAddress = https://localhost:7035
+
+
+GET {{PlantPalAPI_HostAddress}}/weatherfoxxrecast/
+Accept: application/json
+
+
+
+### Kullanýcýlarý Al (Get Users)
+GET {{PlantPalAPI_HostAddress}}/api/auth/users
+Accept: application/json
+
